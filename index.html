@@ -1,11 +1,109 @@
+
+
+
+
+
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>John's Creek DECA</title>
+    <head> 
+        <meta charset="utf-8">
+        <title>Responsive Layout-Testing</title>
 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
     </head>
+
     <body>
-        
-        
+
+
+
+        <div class="hero-wrapper">
+
+            <nav>
+                <ul class="navSideBar">
+                    <li onclick=hideSideBar()><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="white"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+                    <li><a href="#">FORMS AND PAYMENTS</a></li>
+                    <li><a href="#">EVENTS</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">RESOURCES</a></li>
+                </ul>
+                <ul>
+                    <li class="decaLogo"><img src="decaLogo.png" alt=""></li>
+                    
+                    <div class="nav-listItems">                  
+                    <li class="hideOnMobile"><a href="#">FORMS AND PAYMENTS</a></li>
+                    <li class="hideOnMobile"><a href="#">EVENTS</a></li>
+                    <li class="hideOnMobile"><a href="#">ABOUT US</a></li>
+                    <li class="hideOnMobile"><a href="#">RESOURCES</a></li>
+                    <li class="hideMenu" onclick=showSidebar()><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="white"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
+                </div>
+
+                </ul>
+            </nav>
+
+            <div>
+                <img class="img-banner" src="large-cat-breed-1553197454.jpg" alt="catBanner">
+            </div>
+
+            <h1 class="white text-overlay">JOHNS CREEK </h1>
+            <h1 class="red center text-overlay">DECA</h1>
+
+            <button class="hero-button">Learn More</button>
+
+
+
+        </div>
+
+        <div class="wrapper">
+
+            <article class="img-info">
+                <h2>Lorem ipsum dolor sit amet</h2>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </article>
+
+            <img src="largest-domesticated-cats-4843236-hero-3296b6c62ba047029276d17a919ef18b.jpg" alt="hero-Cat">
+
+        </div>
+
+        <div class="wrapper-section2">
+            <article class="section2-txt">
+                <h1>Lorem ipsum dolor sit amet</h1>
+                <div class="section2-img">
+                    <img class="images-circle" src="pexels-pixabay-69932.jpg" alt="">
+                    <img class="images-circle" src="Untitled-design-2022-10-26T143552.718.png" alt="">
+                    <img class="images-circle" src="pexels-katarzyna-modrzejewska-495044-1314550.jpg" alt="">
+                    <img class="images-circle" src="photo-1615789591457-74a63395c990.jpg" alt="">
+                </div>
+            </article>
+        </div>
+
+        <div class="wrapper-CTA">
+            <div>
+                <img src="cat-2830177_1280.jpg" alt="" class="heroBanner-CTA">
+            </div>
+
+            <h1 class="white CTA-overlay">GET INVOLVED </h1>
+
+            <button class="CTA-button">JOIN</button>
+        </div>
+
+
+
+        <script>
+            function showSidebar(){
+                const navSideBar = document.querySelector('.navSideBar')
+                navSideBar.style.display = 'flex'
+            }
+
+            function hideSideBar(){
+                const navSideBar = document.querySelector('.navSideBar')
+                navSideBar.style.display = 'none'
+            }
+        </script>
+
     </body>
 </html>
