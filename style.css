@@ -424,7 +424,7 @@ nav li.decaLogo {
     }
 
     .images-circle {
-        border-radius: 70%;
+        border-radius: 100%;
     }
 
     .wrapper img {
@@ -488,13 +488,26 @@ nav li.decaLogo {
         float: left;
         width: 20%;
         padding: 80px 33px;
-        border-radius: 70%;
+        border-radius: 100%;
     }
 
     .wrapper-section2 h1 {
         text-align: center;
     }
 
+    .CTA-overlay {
+        top: 50%;
+        left: 46%;
+        font-size: 110px;
+    }
+    
+    .CTA-button {
+        top: 60%;
+        left: 42%;
+        font-size: 50px;
+
+    }
+}
 
 }
 
