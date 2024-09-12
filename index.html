@@ -1,13 +1,16 @@
+<!--
+ Khang Nguyen and Soham Desai
+Johns Creek HS Deca Website
+September 6th 2024
+ -->
 
 
-
-
-
-<!DOCTYPE html>
-<html>
+ <!DOCTYPE html>
+ <html>
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="module" defer src="script.js"></script>
         <!-- Latest compiled and minified CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
         
@@ -17,74 +20,141 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
         
-        <title>Johns Creek High DECA</title>
+        <title>JCHS DECA</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="pageAnimations.css">
         <link rel="icon" type="image/x-icon" href="deca.ico">
-    </head>
 
+    </head>
+ 
     <body>
 
-        <nav class="navbar navbar-expand-sm bg-light navbar-light py-0 fixed-top">
+        
+        <nav class="navbar navbar-expand-sm bg-light navbar-light py-3 fixed-top shadow-lg">
             <div class="container-fluid">
-                <a class="navbar-brand mx-2" href="index.html">
-                    <img src="decaLOGO.png" alt="Avatar Logo" style="width:110px;" class="rounded-pill"> 
+                <a class="navbar-brand mx-2" href="\index.html">
+                    <img src="images\decaLogo.png" alt="Avatar Logo" style="width:110px;"> 
                 </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown mx-2 underline">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">FORMS AND PAYMENT</a>
+                        <a class=" nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">FORMS AND PAYMENT</a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Link</a></li>
-                          <li><a class="dropdown-item" href="#">Another link</a></li>
-                          <li><a class="dropdown-item" href="#">A third link</a></li>
+                            <li><a class=" dropdown-item" href="\membershipform.html">DECA membership form</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown mx-2 underline">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">EVENTS</a>
+                        <a class=" nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">EVENTS</a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Link</a></li>
-                          <li><a class="dropdown-item" href="#">Another link</a></li>
-                          <li><a class="dropdown-item" href="#">A third link</a></li>
+                            <li><a class=" dropdown-item" href="#">Regional</a></li>
+                            <li><a class=" dropdown-item" href="#">State</a></li>
+                            <li><a class=" dropdown-item" href="#">National</a></li>
+                            <li><a class=" dropdown-item" href="#">Events Information List</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown mx-2 underline">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">ABOUT US</a>
+                        <a class=" nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">ABOUT US</a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Link</a></li>
-                          <li><a class="dropdown-item" href="#">Another link</a></li>
-                          <li><a class="dropdown-item" href="#">A third link</a></li>
+                            <li><a class=" dropdown-item" href="#">Officer Team & Advisors</a></li>
+                            <li><a class=" dropdown-item" href="#">Socials and Contacts</a></li>
                         </ul>
                     </li>
                     <li class="nav-item mx-2 underline">
-                        <a class="nav-link" href="#">RESOURCES</a>
+                        <a class=" nav-link" href="#">RESOURCES</a>
                     </li>
                 </ul>
-              </div>
+                </div>
             </div>
         </nav>
         
-        
-        <div class="hero-wrapper">
-
-            <div>
-                <img class="img-banner" src="large-cat-breed-1553197454.jpg" alt="catBanner">
-            </div>
-
-            <h1 class="white text-overlay">JCHS</h1>
-            <h1 class="red center text-overlay">DECA</h1>
-
-
-            <button class="hero-button">Learn More</button>
-
-
-
-        </div>
+        <div id="swup" class="transition-fade">
+            <div class="hero-wrapper">
     
+     
+                <div>
+                     <img class="img-banner" src="images\large-cat-breed-1553197454.jpg" alt="catBanner">
+                </div>
+     
+                <h1 class="white text-overlay">JOHNS CREEK </h1>
+                <h1 class="red center text-overlay">DECA</h1>
+     
+                <button class="hero-button">Learn More</button>
+    
+            </div>
+    
+             
+     
+            <div class="wrapper">
+     
+                <article class="img-info">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+     
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+     
+                    <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </article>
+     
+                <img src="images\largest-domesticated-cats-4843236-hero-3296b6c62ba047029276d17a919ef18b.jpg" alt="hero-Cat">
+     
+            </div>
+    
+            <div class="wrapper-section3">
+     
+                <div>
+                    <img src="images\cat-10-e1573844975155-scaled.jpg" alt="" class="heroBanner-CTA">
+                </div>
+    
+                <article class="section3-txt text-overlay">
+                    <h1 class="sec3Title">Chapter Achievements</h1>
+    
+                    <div class="achievementList">
+                        <div>
+                            <h1>N/A+</h1>
+                            <h3>Memebers</h3>
+                        </div>
+                        <div>
+                            <h1>N/A+</h1>
+                            <h3>State Winners</h3>
+                        </div>
+                        <div>
+                            <h1>N/A+</h1>
+                            <h3>National Qualifiers</h3>
+                        </div>
+                        <div>
+                            <h1>N/A+</h1>
+                            <h3>National Winners</h3>
+                        </div>
+                    </div>
+                </article>
+            </div>
+     
+            <div class="wrapper-section2">
+                <article class="section2-txt">
+                    <h1>Lorem ipsum dolor sit amet</h1>
+                    <div class="section2-img">
+                        <img class="images-circle" src="images\pexels-pixabay-69932.jpg" alt="">
+                        <img class="images-circle" src="images\Untitled-design-2022-10-26T143552.718.png" alt="">
+                        <img class="images-circle" src="images\pexels-katarzyna-modrzejewska-495044-1314550.jpg" alt="">
+                        <img class="images-circle" src="images\photo-1615789591457-74a63395c990.jpg" alt="">
+                    </div>
+                </article>
+            </div>
+     
+             <div class="wrapper-CTA">
+                <div>
+                    <img src="images\cat-2830177_1280.jpg" alt="" class="heroBanner-CTA">
+                </div>
+     
+                <h1 class="white CTA-overlay">GET INVOLVED </h1>
+     
+                <button class="CTA-button">JOIN</button>
+            </div>
+        </div>
         
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
+ 
     </body>
 </html>
