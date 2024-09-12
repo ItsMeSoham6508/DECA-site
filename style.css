@@ -80,7 +80,7 @@ But by control the z-index, put the text over the image. */
 .hero-button {
     position: relative;
     top: 30%;
-    left: 20%;
+    left: 26%;
     font-size: 25px;
     font-weight: 550;
     color: #fff;
@@ -370,7 +370,8 @@ nav a:hover {
       }
       .hero-button {
         top: 30%;
-        left: 31%;
+        left: 36%;
+        font-size: 35px;
     }
 
     .images-circle {
@@ -462,7 +463,8 @@ nav a:hover {
 
     .hero-button {
         top: 25%;
-        left: 36%;
+        left: 39%;
+        font-size: 40px;
     }
 
     .wrapper {
@@ -562,7 +564,8 @@ nav a:hover {
 
     .hero-button {
         top: 25%;
-        left: 40%;
+        left: 43%;
+        font-size: 40px;
     }
 
     .wrapper-section2 img {
