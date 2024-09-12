@@ -4,6 +4,10 @@
 }
 
 
+.navHoverBlue:hover {
+    color: blue;
+    transition: all 0.3s ease-in;
+}
 
 .red {
     color:darkred
