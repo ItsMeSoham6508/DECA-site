@@ -13,6 +13,7 @@
         <title>JCHS DECA</title>
         <link rel="stylesheet" href="forms.css">
         <link rel="stylesheet" href="events.css">
+        <link rel="stylesheet" href="style.css">
         <link rel="icon" type="image/x-icon" href="deca.ico">
 
     </head>
@@ -20,9 +21,9 @@
     <body>
 
         
-        <nav class="navbar navbar-expand-sm bg-light navbar-light py-4 fixed-top shadow-lg">
+        <nav class="navbar navbar-expand-sm bg-light navbar-light py-4 fixed-top shadow-sm">
             <div class="container-fluid">
-                <a class="navbar-brand mx-5" href=\index.html>
+                <a class="navbar-brand mx-5" href=index.html>
                     <img src="decaLogo.png" alt="Avatar Logo" style="width:110px;"> 
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -33,7 +34,7 @@
                         <li class="nav-item dropdown mx-1 underline">
                             <a class=" nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">FORMS</a>
                             <ul class="dropdown-menu">
-                                <li><a class=" dropdown-item" href=\membershipform.html>DECA membership form</a></li>
+                                <li><a class="dropdown-item" href=membershipform.html>DECA membership form</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown mx-1 underline">
@@ -173,7 +174,20 @@
                 scrolling="no">
             </iframe>
         </div>
-        <br><br>        
+        <br><br>
+        
+        <div class="toast-container position-fixed bottom-0 end-0 p-3">
+            <div id="myToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    <strong class="me-auto">Psst...</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                    Fall Rally coming up soon!!
+                </div>
+            </div>
+        </div>
+        
         
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> 
     </body>

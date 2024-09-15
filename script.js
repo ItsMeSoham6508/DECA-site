@@ -26,3 +26,8 @@ function showToast(event) {
     x.className = "show";
     setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
 }
+
+window.addEventListener('load', function() {
+    var myToast = new bootstrap.Toast(document.getElementById('myToast'));
+    myToast.show();
+});

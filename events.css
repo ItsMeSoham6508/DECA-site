@@ -83,12 +83,6 @@ caption, th {
 }
 
 
-nav li {
-    position: relative;
-    padding-left: 20px;
-}
-
-
 @media (max-width: 650px) {
 
     th {

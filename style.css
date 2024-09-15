@@ -1,36 +1,21 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-.blue {
-    color: darkblue;
+    font-family: "Lexend Deca";
 }
 
 .white {
     color: white;
 }
 
-.navHoverBlue:hover {
-    color: blue;
-    transition: all 0.3s ease-in;
-}
 
 .red {
     color:darkred
 }
 
-.white {
-    color: #fff
-}
 
 .flex {
     display: flex;
-}
-
-.bgBlue {
-    padding-top: 50px;
-    background-color: rgba(92, 92, 168, 0.226);
 }
 
 
@@ -313,7 +298,8 @@ But by control the z-index, put the text over the image. */
 
 nav li {
     position: relative;
-    padding: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
@@ -514,25 +500,6 @@ nav a:hover {
     height: 45px;
     position: relative;
     top: -5%;
-}
-
-.bgGradient {
-    width: 100%;
-    background: linear-gradient(45deg, #B0E3FF, #63AFFF, #3333FF, #3333AA );
-    background-size: 300% 300%;
-    animation: gradientAni 8s ease-in-out infinite;
-}
-
-@keyframes gradientAni {
-    0% {
-        background-position: 0 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0 50%;
-    }
 }
 
 
@@ -951,5 +918,3 @@ nav a:hover {
     }    
 
 }
-
-
