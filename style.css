@@ -7,6 +7,9 @@
     color: darkblue;
 }
 
+.white {
+    color: white;
+}
 
 .navHoverBlue:hover {
     color: blue;
@@ -40,7 +43,7 @@ But by control the z-index, put the text over the image. */
     width: 100%;
 
     /* Dynamically adjusts the wrapper height between 760 to 870px based on the viewport */
-    height: clamp(760px, 125vh, 870px);
+    height: 730px;
 
     z-index: 0;
     
@@ -148,7 +151,7 @@ But by control the z-index, put the text over the image. */
 }
 
 .wrapper {
-    padding-top:100px;
+    padding-top: 100px;
     width: 100%;
     padding-bottom: 100px;
     overflow: auto;
@@ -371,7 +374,7 @@ nav a:hover {
     top: 0;
     width: 100%;
     position: relative;
-    height: clamp(760px, 125vh, 870px);
+    height: 760px;
     z-index: 0;
     
 }
@@ -511,6 +514,25 @@ nav a:hover {
     height: 45px;
     position: relative;
     top: -5%;
+}
+
+.bgGradient {
+    width: 100%;
+    background: linear-gradient(45deg, #87CEFA, #1E90FF, #0000CD, #00008B );
+    background-size: 300% 300%;
+    animation: gradientAni 8s ease-in-out infinite;
+}
+
+@keyframes gradientAni {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
 }
 
 
