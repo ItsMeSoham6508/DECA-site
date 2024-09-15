@@ -79,7 +79,7 @@ a.link-to-form:active {
 
 
 .media-container {
-    box-shadow: 0 0 20px #01427e;
+    box-shadow: 15px 15px 15px 15px #02325f;
     margin-bottom: 50px;
     background-color: #cddcea;
     width: min(80vw,1000px);
