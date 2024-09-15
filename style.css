@@ -107,7 +107,7 @@ But by control the z-index, put the text over the image. */
 .text-overlay {
 
     /* Position the text */
-    top: 30%;
+    top: 35%;
     left: 55%;
     transform: translate(-50%, -50%);
 
@@ -870,7 +870,7 @@ nav a:hover {
     }
 
     .hero-button {
-        top: 25%;
+        top: 30%;
         left: 43%;
         font-size: 40px;
     }
