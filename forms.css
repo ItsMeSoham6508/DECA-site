@@ -116,6 +116,10 @@ a.link-to-form:active {
     height: 200px;
 }
 
+#groupMeSizer {
+    width: 400px;
+}
+
 a.main-title:hover {
     font-size: 180%;
     transition: font-size, .35s ease-in;
